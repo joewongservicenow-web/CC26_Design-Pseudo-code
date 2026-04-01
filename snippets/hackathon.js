@@ -63,3 +63,13 @@ try {
     presenter.say("so if you IMAGINE that working...");
     audience.nod(sympathetically);
 }
+
+// --- #10 --- by Joe
+function start_sprint() {
+	var work = new getStory();
+	while(!work.finish()) {
+		getCoffee();
+		work.code();
+	}
+	sleep();
+}
